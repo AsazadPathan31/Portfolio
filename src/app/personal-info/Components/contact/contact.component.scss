@@ -1,0 +1,60 @@
+.contact {
+  background-color: #f6f6f6;
+  padding: 80px 0;
+  text-align: center;
+}
+
+.contact h2 {
+  font-size: 42px; /* Increased font size */
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.contact p {
+  font-size: 20px; /* Increased font size */
+  color: #666;
+  margin-bottom: 50px;
+}
+
+.contact ul {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 50px;
+}
+
+.contact ul li {
+  margin-bottom: 20px;
+}
+
+.contact ul li a {
+  font-size: 18px; /* Increased font size */
+  color: #007bff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.contact ul li a:hover {
+  color: #0056b3;
+}
+
+.contact .social-links {
+  margin-top: 30px;
+}
+
+.contact .social-links a {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 24px; /* Increased font size */
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 50%;
+  margin: 0 10px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.contact .social-links a:hover {
+  background-color: #0056b3;
+}

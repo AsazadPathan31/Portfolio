@@ -1,0 +1,121 @@
+/* General styles */
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #f8f9fa; /* Light Gray */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  width: 90%;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.container:hover {
+  transform: translateY(-5px);
+}
+
+.padding-content {
+  padding-bottom: 10rem;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+h1 {
+  font-size: 36px;
+  color: #333;
+}
+
+h2 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 16px;
+  color: #666;
+  line-height: 1.5;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  display: inline;
+  margin: 0 10px;
+}
+
+a {
+  text-decoration: none;
+  color: #007bff;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #0056b3;
+}
+
+/* Unique styles */
+.intro,
+.background,
+.expertise,
+.mission-vision,
+.values,
+.achievements,
+.personal-touch {
+  margin-bottom: 30px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+}
+
+.intro:hover,
+.background:hover,
+.expertise:hover,
+.mission-vision:hover,
+.values:hover,
+.achievements:hover,
+.personal-touch:hover {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+.intro {
+  background-color: #f9d7e6; /* Light Pink */
+}
+
+.background {
+  background-color: #c4e6f5; /* Light Blue */
+}
+
+.expertise {
+  background-color: #f7c59f; /* Light Orange */
+}
+
+.mission-vision {
+  background-color: #a8d8ea; /* Sky Blue */
+}
+
+.values {
+  background-color: #f0e1a1; /* Light Yellow */
+}
+
+.achievements {
+  background-color: #c4f5c1; /* Light Green */
+}
+
+.personal-touch {
+  background-color: #ffc4dd; /* Light Purple */
+}
